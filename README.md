@@ -1,9 +1,16 @@
 ## 動作確認環境  
 windows11  
 
+## 更新情報
+2024/01/20<br>
+・バトルの時間帯効果の仕様変更<br>
+・制限時間追加<br>
+・リーダーが特別なスキルを使えるように機能追加<br>
+・シーン切り替えのフェードを追加
+
 
 ## 動いているところを確認する方法  
-https://drive.google.com/file/d/1Ol2kOKf9dJzViVQCDb2BMcbfXXc5P4UH/view?usp=drive_link
+https://drive.google.com/file/d/102MZDu3U-mV5XX5F8Xj__aQSM23Rx1Wp/view?usp=sharing
 
 上記のリンクからzipをダウンロード<br>
 解凍後中のUnityProject.exeを実行する<br>
