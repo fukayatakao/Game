@@ -2,6 +2,13 @@
 windows11  
 
 ## 更新情報
+2024/02/09  
+・部隊編成で１列に１体リーダーを付けられるように変更
+・複数部隊を編成できるように機能追加  
+・バトルの属性について見直し  
+　・属性は５種類から３種類に変更
+　・時間帯ボーナスで提示されている属性値が高い方にノックバック発生率upの効果  
+
 2024/01/20<br>
 ・バトルの時間帯効果の仕様変更<br>
 ・制限時間追加<br>
@@ -14,7 +21,7 @@ https://drive.google.com/file/d/102MZDu3U-mV5XX5F8Xj__aQSM23Rx1Wp/view?usp=shari
 
 上記のリンクからzipをダウンロード<br>
 解凍後中のUnityProject.exeを実行する<br>
-（ダウンロードの際に出るエラーは無視、exe実行時の警告も無視）<br>
+（ダウンロードの際に出るエラーは無視、exe実行時の警告も無視）<br>https://drive.google.com/file/d/102MZDu3U-mV5XX5F8Xj__aQSM23Rx1Wp/view?usp=sharingk
 
 ## タイトル
 ![タイトル表示](images/title.png "title")<br>
@@ -51,7 +58,7 @@ https://drive.google.com/file/d/102MZDu3U-mV5XX5F8Xj__aQSM23Rx1Wp/view?usp=shari
 タウンからクエストを開始するとバトルが開始される<br>
 ![バトル](images/battle.png "battle")<br>
 バトルは開始すると自動で進行する。<br>
-一番後ろにいるリーダーを倒すことで勝利できる。<br>
+すべての列の敵を倒すことで勝利できる。<br>
 ・ForeSiwthで前・中列の入れ替えができる<br>
 ・AftSwitchで中・後列の入れ替えができる<br>
 ・Rotationで前・中・後列の入れ替えができる<br>
