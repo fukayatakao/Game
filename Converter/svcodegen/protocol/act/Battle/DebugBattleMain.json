@@ -1,0 +1,30 @@
+{
+	"Action":{
+		"ClassComment": "バトルシーン開始(デバッグ)",
+		"ClassName": "DebugBattleMain",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"BattleSituationData",
+					"name":"situation",
+					"comment": "バトル情報"
+				}
+
+			]
+		}
+	}
+}

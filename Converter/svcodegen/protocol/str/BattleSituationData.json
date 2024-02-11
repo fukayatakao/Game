@@ -1,0 +1,34 @@
+{
+	"Struct":
+	{
+		"ClassComment":"バトル情報",
+		"ClassName":"BattleSituationData",
+		"member":[
+			{
+				"type":"PlatoonData",
+				"name":"invader",
+				"comment": "攻撃側情報"
+			},
+			{
+				"type":"PlatoonData",
+				"name":"defender",
+				"comment": "防衛側情報"
+			},
+			{
+				"type":"string",
+				"name":"enemyAI",
+				"comment": "敵AI"
+			},
+			{
+				"type":"int",
+				"name":"nodeId",
+				"comment": "ノードID"
+			},
+			{
+				"type":"int",
+				"name":"stageId",
+				"comment": "ステージID"
+			}
+		]
+	}
+}

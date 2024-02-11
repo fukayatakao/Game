@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Factory
+  m_EditorClassIdentifier: 
+  m_GroupName: Factory
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e576fa717c83d664c8630b7ab7614697
+  m_SerializeEntries:
+  - m_GUID: 17a9716fbdc8b31448e91aef28d1bc2d
+    m_Address: Factory/Farm
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28e4f0addc218814dbabfafef3dba9e8
+    m_Address: Factory/Bakery
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00a5611abf0c82b488961e9af34b9981
+    m_Address: Factory/Blacksmith
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7ca1f8f6c2d14d45a61828d73a240f1
+    m_Address: Factory/Brewery
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c62cd716c451e8748aecd762688568e3
+    m_Address: Factory/Ironworks
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afd70beff4fb3c647a0d5fc22dfa86c2
+    m_Address: Factory/Logging
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3977d28900e7ac54a9f49995f4db990d
+    m_Address: Factory/Mill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8c8a0e577ff3cc48b5cfe47e0c31f2c
+    m_Address: Factory/Mine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8176ea9ab49531e409d67e984a8af9b1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0820e302ffb3d764eb3056160adf642b, type: 2}
+    - {fileID: 11400000, guid: 552c8b75dcaa74749bd96ffedae4e45a, type: 2}

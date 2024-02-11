@@ -1,0 +1,66 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "なし",
+        "ActionName":  "",
+        "Type":  "",
+        "Value":  "",
+        "Consume":  ""
+    },
+    {
+        "Id":  "1",
+        "DbgName":  "リーダースキル1",
+        "ActionName":  "Leader_Special",
+        "Type":  "1",
+        "Value":  "5",
+        "Consume":  ""
+    },
+    {
+        "Id":  "2",
+        "DbgName":  "リーダースキル2",
+        "ActionName":  "Leader_Special",
+        "Type":  "1",
+        "Value":  "5",
+        "Consume":  ""
+    },
+    {
+        "Id":  "3",
+        "DbgName":  "リーダースキル3",
+        "ActionName":  "Leader_Special",
+        "Type":  "1",
+        "Value":  "5",
+        "Consume":  ""
+    },
+    {
+        "Id":  "4",
+        "DbgName":  "リーダースキル4",
+        "ActionName":  "Leader_Special",
+        "Type":  "1",
+        "Value":  "5",
+        "Consume":  ""
+    },
+    {
+        "Id":  "5",
+        "DbgName":  "リーダースキル5",
+        "ActionName":  "Leader_Special",
+        "Type":  "1",
+        "Value":  "5",
+        "Consume":  ""
+    },
+    {
+        "Id":  "6",
+        "DbgName":  "リーダースキル6",
+        "ActionName":  "Leader_Special",
+        "Type":  "1",
+        "Value":  "5",
+        "Consume":  ""
+    },
+    {
+        "Id":  "10",
+        "DbgName":  "ドラゴンSoulEater",
+        "ActionName":  "DragonSoulEater_Special",
+        "Type":  "2",
+        "Value":  "5",
+        "Consume":  ""
+    }
+]

@@ -1,0 +1,5 @@
+Build=Develop
+Platform=Windows
+Version=0.0.1
+Revition=123
+Server=aaaa

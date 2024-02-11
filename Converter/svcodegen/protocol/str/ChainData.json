@@ -1,0 +1,29 @@
+{
+	"Struct":
+	{
+		"ClassComment":"Chain情報",
+		"ClassName":"ChainData",
+		"member":[
+			{
+				"type":"int",
+				"name":"senderId",
+				"comment": "送る側Id"
+			},
+			{
+				"type":"int",
+				"name":"recieverId",
+				"comment": "受け側Id"
+			},
+			{
+				"type":"float",
+				"name":"distance",
+				"comment": "距離"
+			},
+			{
+				"type":"bool",
+				"name":"valid",
+				"comment": "有効"
+			}
+		]
+	}
+}

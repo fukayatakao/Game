@@ -1,0 +1,39 @@
+{
+	"Action":{
+		"ClassComment": "タウンシーン開始",
+		"ClassName": "TownMain",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"TownData",
+					"name":"townData",
+					"comment": "タウン全体データ"
+				},
+				{
+					"type":"List<CharacterData>",
+					"name":"characters",
+					"comment": "所持キャラクター"
+				},
+				{
+					"type":"List<ItemData>",
+					"name":"items",
+					"comment": "所持アイテム"
+				}
+			]
+		}
+	}
+}

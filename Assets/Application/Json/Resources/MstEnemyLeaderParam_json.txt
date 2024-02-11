@@ -1,0 +1,41 @@
+﻿[
+    {
+        "Id":  "1",
+        "DbgName":  "ユニティちゃん（敵）",
+        "BaseId":  "1",
+        "MaxHp":  "1000",
+        "MaxLp":  "1000",
+        "Attack":  "1000",
+        "Defence":  "1000",
+        "SkillA":  "1",
+        "SkillB":  "2",
+        "SkillC":  "3",
+        "SkillD":  "4"
+    },
+    {
+        "Id":  "2",
+        "DbgName":  "ドラゴンSoulEater（敵）",
+        "BaseId":  "2",
+        "MaxHp":  "1000",
+        "MaxLp":  "1000",
+        "Attack":  "1000",
+        "Defence":  "1000",
+        "SkillA":  "",
+        "SkillB":  "",
+        "SkillC":  "0",
+        "SkillD":  "0"
+    },
+    {
+        "Id":  "3",
+        "DbgName":  "ドラゴンTerrorBringer（敵）",
+        "BaseId":  "3",
+        "MaxHp":  "1000",
+        "MaxLp":  "1000",
+        "Attack":  "1000",
+        "Defence":  "1000",
+        "SkillA":  "",
+        "SkillB":  "",
+        "SkillC":  "0",
+        "SkillD":  "0"
+    }
+]

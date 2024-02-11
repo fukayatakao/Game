@@ -1,0 +1,16 @@
+﻿[
+    {
+        "Id":  "0",
+        "Name":  "なし",
+        "Model":  "",
+        "Cost":  "",
+        "Logistics":  ""
+    },
+    {
+        "Id":  "1",
+        "Name":  "城",
+        "Model":  "Special/Castle",
+        "Cost":  "0",
+        "Logistics":  "100"
+    }
+]

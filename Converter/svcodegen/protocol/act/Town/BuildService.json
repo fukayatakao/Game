@@ -1,0 +1,32 @@
+{
+	"Action":{
+		"ClassComment": "サービス施設を建てる",
+		"ClassName": "BuildService",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"ServiceData",
+					"name":"serviceData",
+					"comment": "追加された施設"
+				},
+				{
+					"type":"List<ChainData>",
+					"name":"chain",
+					"comment": "追加されたChain"
+				}
+			]
+		},
+		"Response":{
+		}
+	}
+}

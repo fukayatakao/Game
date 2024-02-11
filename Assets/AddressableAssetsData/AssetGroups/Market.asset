@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Market
+  m_EditorClassIdentifier: 
+  m_GroupName: Market
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0c4b8b1c9dff94c418bb75a1cdd1779d
+  m_SerializeEntries:
+  - m_GUID: d45968e938db90f4ab977abe796875e8
+    m_Address: Market/ClothingStore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c76363f15b0321e49b30b0a65ebbbd9b
+    m_Address: Market/GroceryStore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f20293b6ffaecf2458aa3dc6d86b0e17
+    m_Address: Market/HouseholdStore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6536967a26fc2344f910699693b50e09
+    m_Address: Market/LuxuryStore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cefed31fca56eb4198feb09ca6bc2ae
+    m_Address: Market/ArmStore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8176ea9ab49531e409d67e984a8af9b1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ba57a328af551414683a00162f9cadb4, type: 2}
+    - {fileID: 11400000, guid: d7343da37acb3b641990144ce6fc15e4, type: 2}

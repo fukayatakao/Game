@@ -1,0 +1,27 @@
+{
+	"Action":{
+		"ClassComment": "リーダー抽選",
+		"ClassName": "LotteryLeader",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"LeaderData",
+					"name":"leaderData",
+					"comment": "リーダーデータ"
+				}
+			]
+		}
+	}
+}

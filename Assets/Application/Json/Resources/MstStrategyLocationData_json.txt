@@ -1,0 +1,72 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "任意",
+        "Map":  "",
+        "Node":  "",
+        "Platoon":  ""
+    },
+    {
+        "Id":  "1",
+        "DbgName":  "部隊1",
+        "Map":  "1",
+        "Node":  "7",
+        "Platoon":  "1"
+    },
+    {
+        "Id":  "2",
+        "DbgName":  "部隊2",
+        "Map":  "1",
+        "Node":  "8",
+        "Platoon":  "101"
+    },
+    {
+        "Id":  "3",
+        "DbgName":  "部隊3",
+        "Map":  "1",
+        "Node":  "16",
+        "Platoon":  "101"
+    },
+    {
+        "Id":  "4",
+        "DbgName":  "部隊4",
+        "Map":  "1",
+        "Node":  "17",
+        "Platoon":  "3"
+    },
+    {
+        "Id":  "5",
+        "DbgName":  "部隊5",
+        "Map":  "1",
+        "Node":  "19",
+        "Platoon":  "2"
+    },
+    {
+        "Id":  "6",
+        "DbgName":  "部隊1",
+        "Map":  "2",
+        "Node":  "1",
+        "Platoon":  "1"
+    },
+    {
+        "Id":  "7",
+        "DbgName":  "部隊2",
+        "Map":  "2",
+        "Node":  "2",
+        "Platoon":  "1"
+    },
+    {
+        "Id":  "8",
+        "DbgName":  "部隊3",
+        "Map":  "2",
+        "Node":  "3",
+        "Platoon":  "1"
+    },
+    {
+        "Id":  "9",
+        "DbgName":  "部隊4",
+        "Map":  "2",
+        "Node":  "4",
+        "Platoon":  "1"
+    }
+]

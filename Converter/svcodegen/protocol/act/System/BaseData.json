@@ -1,0 +1,34 @@
+{
+	"Action":{
+		"ClassComment": "ベースデータ取得",
+		"ClassName": "BaseData",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "true",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "true",
+			"offline": "true"
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"string",
+					"name":"type",
+					"comment": "BaseDataタイプ"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"string",
+					"name":"data",
+					"comment": "BaseData"
+				}
+			]
+		}
+	}
+}

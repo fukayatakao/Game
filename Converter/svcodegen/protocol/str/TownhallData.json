@@ -1,0 +1,39 @@
+{
+	"Struct":
+	{
+		"ClassComment":"Townhall情報",
+		"ClassName":"TownhallData",
+		"member":[
+			{
+				"type":"int",
+				"name":"id",
+				"comment": "識別子"
+			},
+			{
+				"type":"int",
+				"name":"baseId",
+				"comment": "FactoryBaseのid"
+			},
+			{
+				"type":"Vector3",
+				"name":"position",
+				"comment": "座標"
+			},
+			{
+				"type":"int",
+				"name":"tax",
+				"comment": "税率"
+			},
+			{
+				"type":"int",
+				"name":"gold",
+				"comment": "所持金"
+			},
+			{
+				"type":"int",
+				"name":"logistics",
+				"comment": "流通"
+			}
+		]
+	}
+}

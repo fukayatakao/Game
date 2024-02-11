@@ -1,0 +1,49 @@
+{
+	"Struct":
+	{
+		"ClassComment":"Service情報",
+		"ClassName":"ServiceData",
+		"member":[
+			{
+				"type":"int",
+				"name":"id",
+				"comment": "識別子"
+			},
+			{
+				"type":"int",
+				"name":"baseId",
+				"comment": "ServiceBaseのid"
+			},
+			{
+				"type":"Vector3",
+				"name":"position",
+				"comment": "座標"
+			},
+			{
+				"type":"float",
+				"name":"radius",
+				"comment": "流通半径"
+			},
+			{
+				"type":"int",
+				"name":"product",
+				"comment": "生産グッズ"
+			},
+			{
+				"type":"int",
+				"name":"grade",
+				"comment": "生産物のグレード"
+			},
+			{
+				"type":"int",
+				"name":"output",
+				"comment": "生産量"
+			},
+			{
+				"type":"int",
+				"name":"worker",
+				"comment": "最大労働者数"
+			}
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"Action":{
+		"ClassComment": "部隊編成更新",
+		"ClassName": "UpdateCorps",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"List<PlatoonData>",
+					"name":"platoons",
+					"comment": "小隊情報"
+				},
+				{
+					"type":"List<LeaderData>",
+					"name":"leaders",
+					"comment": "予備リーダー"
+				},
+				{
+					"type":"List<CharacterData>",
+					"name":"reserves",
+					"comment": "予備キャラクターデータ"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+
+			]
+		}
+	}
+}

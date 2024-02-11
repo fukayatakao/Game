@@ -1,0 +1,39 @@
+{
+	"Struct":
+	{
+		"ClassComment":"リーダー情報",
+		"ClassName":"LeaderData",
+		"member":[
+			{
+				"type":"int",
+				"name":"id",
+				"comment": "管理ID"
+			},
+			{
+				"type":"int",
+				"name":"leaderMasterId",
+				"comment": "リーダーマスターのId"
+			},
+			{
+				"type":"int",
+				"name":"enemyLeaderParamId",
+				"comment": "敵リーダー用上書きパラメータId"
+			},
+			{
+				"type":"int",
+				"name":"lv",
+				"comment": "レベル"
+			},
+			{
+				"type":"int",
+				"name":"attack",
+				"comment": "レベルによる攻撃補正"
+			},
+			{
+				"type":"int",
+				"name":"defense",
+				"comment": "レベルによる防御補正"
+			}
+		]
+	}
+}

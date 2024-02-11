@@ -1,0 +1,45 @@
+{
+	"Action":{
+		"ClassComment": "編成シーン開始",
+		"ClassName": "OrganizeMain",
+		"Config": {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true"
+		},
+		"Request":{
+			"member":[
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"int",
+					"name":"stageId",
+					"comment": "ステージモデル"
+				},
+				{
+					"type":"List<PlatoonData>",
+					"name":"platoons",
+					"comment": "小隊情報"
+				},
+				{
+					"type":"List<LeaderData>",
+					"name":"leaders",
+					"comment": "予備リーダー"
+				},
+				{
+					"type":"List<CharacterData>",
+					"name":"reserves",
+					"comment": "予備キャラクターデータ"
+				}
+
+			]
+		}
+	}
+}

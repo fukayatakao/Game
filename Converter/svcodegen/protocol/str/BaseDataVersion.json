@@ -1,0 +1,19 @@
+{
+	"Struct":
+	{
+		"ClassComment":"BaseDataバージョン情報",
+		"ClassName":"BaseDataVersion",
+		"member":[
+			{
+				"type":"string",
+				"name":"type",
+				"comment": "BaseDataタイプ名"
+			},
+			{
+				"type":"string",
+				"name":"version",
+				"comment": "チェックハッシュ"
+			}
+		]
+	}
+}

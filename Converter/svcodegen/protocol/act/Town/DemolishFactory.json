@@ -1,0 +1,34 @@
+{
+	"Action":{
+		"ClassComment": "生産施設を撤去する",
+		"ClassName": "DemolishFactory",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"FactoryData",
+					"name":"factoryData",
+					"comment": "撤去された生産施設"
+				},
+				{
+					"type":"List<ChainData>",
+					"name":"chain",
+					"comment": "削除されたChain"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+			]
+		}
+	}
+}

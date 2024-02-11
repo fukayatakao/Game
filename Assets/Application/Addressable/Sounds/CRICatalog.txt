@@ -1,0 +1,13 @@
+﻿Sounds/DemoProj-acb,82638f0f2eaccdfaa882f09239540f57
+Sounds/DemoProj-acf,e5f94eb0aaf43fe1dfaf59d25b2ec258
+Sounds/DemoProj-awb,31feee28ec3db0ca37390bcc9ab86408
+Sounds/bgm/bgm-acb,82638f0f2eaccdfaa882f09239540f57
+Sounds/bgm/bgm-acf,e5f94eb0aaf43fe1dfaf59d25b2ec258
+Sounds/bgm/bgm-awb,31feee28ec3db0ca37390bcc9ab86408
+Sounds/voice/voice-acb,82638f0f2eaccdfaa882f09239540f57
+Sounds/voice/voice-acf,e5f94eb0aaf43fe1dfaf59d25b2ec258
+Sounds/voice/voice-awb,31feee28ec3db0ca37390bcc9ab86408
+Sounds/voice/01/voice01-acf,e5f94eb0aaf43fe1dfaf59d25b2ec258
+Sounds/voice/01/voice01-awb,31feee28ec3db0ca37390bcc9ab86408
+Sounds/voice/01/aaaa/aaaaa-acf,e5f94eb0aaf43fe1dfaf59d25b2ec258
+Sounds/voice/01/aaaa/aaaaaa-awb,31feee28ec3db0ca37390bcc9ab86408

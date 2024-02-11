@@ -1,0 +1,32 @@
+{
+	"Action":{
+		"ClassComment": "住居を建てる",
+		"ClassName": "BuildResidence",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"ResidenceData",
+					"name":"residenceData",
+					"comment": "追加された住居"
+				},
+				{
+					"type":"List<ChainData>",
+					"name":"chain",
+					"comment": "追加されたChain"
+				}
+			]
+		},
+		"Response":{
+		}
+	}
+}

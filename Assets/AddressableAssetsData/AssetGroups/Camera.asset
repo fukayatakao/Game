@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Camera
+  m_EditorClassIdentifier: 
+  m_GroupName: Camera
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1cf7cb080b7fb2a4a8b03e0bf6d26665
+  m_SerializeEntries:
+  - m_GUID: e0fed45f569546a4ba5403f0b8f8d98b
+    m_Address: Camera/Rolling
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b432e972d5e4362449c37ed69acb2838
+    m_Address: Camera/Zoom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8176ea9ab49531e409d67e984a8af9b1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5d27d9915d3cd3a449701005c70dbcab, type: 2}
+    - {fileID: 11400000, guid: fae3a72c2e42a25488d9a6d4a9b7e2b3, type: 2}

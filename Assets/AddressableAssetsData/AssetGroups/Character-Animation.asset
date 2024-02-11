@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Character-Animation
+  m_EditorClassIdentifier: 
+  m_GroupName: Character-Animation
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 71036222e9f131e4abbd49cae544443d
+  m_SerializeEntries:
+  - m_GUID: 06e8a15b40cec02469a0cf586b32bc2a
+    m_Address: Character/Animation/SiegeEngine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-SiegeEngine
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57074d0d10629c24187b3ca350be2bdb
+    m_Address: Character/Animation/RPGHero
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-RPGHero
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc43892448e8bfc4cbde83fca84413fe
+    m_Address: Character/Animation/Pose
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-Pose
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21f7df3a71c26f84ca624199ce38b522
+    m_Address: Character/Animation/Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-Normal
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 177c8883f352e5945afcd19db6797b9b
+    m_Address: Character/Animation/Mage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-Mage
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76aed4159cfac3640b3eb71d4a4826cb
+    m_Address: Character/Animation/Leader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-Leader
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dc33cd699a479a42b6cd3f2bd057177
+    m_Address: Character/Animation/Knight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-Knight
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c575ee5296fb5ed46bcf26e7e550af6b
+    m_Address: Character/Animation/Horseman
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-Horseman
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1cd170141f63334eaa671820b639e85
+    m_Address: Character/Animation/Griffin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-Griffin
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa13ef78f63c0fe4faa0d9e8fa67a9c9
+    m_Address: Character/Animation/Footman
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-Footman
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa73a6a1e0e6d7544b43974ef6ca34be
+    m_Address: Character/Animation/DragonTerrorBringer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-DragonTerrorBringer
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abdcdbb7f8a28ac4fbfa74d9471a68e5
+    m_Address: Character/Animation/DragonSoulEater
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-DragonSoulEater
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3208521bf56a755459466eb58d4c0a86
+    m_Address: Character/Animation/Archer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation-Archer
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8176ea9ab49531e409d67e984a8af9b1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0d949ab3ab680cd41bceb5d31186d51d, type: 2}
+    - {fileID: 11400000, guid: 3a57dcf5e5a5da44aaa4abdd2d0e5571, type: 2}

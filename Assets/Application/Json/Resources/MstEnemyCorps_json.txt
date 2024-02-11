@@ -1,0 +1,68 @@
+﻿[
+    {
+        "Id":  "1",
+        "DbgName":  "騎歩弓",
+        "FirstUnit":  "21",
+        "FirstLeader":  "3",
+        "SecondUnit":  "11",
+        "SecondLeader":  "3",
+        "ThirdUnit":  "31",
+        "ThirdLeader":  "3",
+        "Ai":  "Platoon/AI/basic"
+    },
+    {
+        "Id":  "2",
+        "DbgName":  "歩歩弓",
+        "FirstUnit":  "11",
+        "FirstLeader":  "3",
+        "SecondUnit":  "12",
+        "SecondLeader":  "3",
+        "ThirdUnit":  "31",
+        "ThirdLeader":  "3",
+        "Ai":  "Platoon/AI/basic"
+    },
+    {
+        "Id":  "3",
+        "DbgName":  "騎騎弓",
+        "FirstUnit":  "21",
+        "FirstLeader":  "3",
+        "SecondUnit":  "21",
+        "SecondLeader":  "3",
+        "ThirdUnit":  "31",
+        "ThirdLeader":  "3",
+        "Ai":  "Platoon/AI/basic"
+    },
+    {
+        "Id":  "4",
+        "DbgName":  "騎歩歩",
+        "FirstUnit":  "24",
+        "FirstLeader":  "3",
+        "SecondUnit":  "14",
+        "SecondLeader":  "3",
+        "ThirdUnit":  "11",
+        "ThirdLeader":  "3",
+        "Ai":  "Platoon/AI/basic"
+    },
+    {
+        "Id":  "5",
+        "DbgName":  "歩歩歩",
+        "FirstUnit":  "11",
+        "FirstLeader":  "3",
+        "SecondUnit":  "15",
+        "SecondLeader":  "3",
+        "ThirdUnit":  "11",
+        "ThirdLeader":  "3",
+        "Ai":  "Platoon/AI/basic"
+    },
+    {
+        "Id":  "101",
+        "DbgName":  "騎騎騎",
+        "FirstUnit":  "26",
+        "FirstLeader":  "3",
+        "SecondUnit":  "26",
+        "SecondLeader":  "3",
+        "ThirdUnit":  "26",
+        "ThirdLeader":  "3",
+        "Ai":  "Platoon/AI/basic"
+    }
+]

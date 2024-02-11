@@ -1,0 +1,488 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b26b2f63f2de6a478c86254adb3a1ed, type: 3}
+  m_Name: basic
+  m_EditorClassIdentifier: 
+  key: character
+  counter: 68
+  roots:
+  - id: 1
+    priority: 0
+    label: "\u30E1\u30A4\u30F3"
+    parent: -1
+    type: 0
+    module: Root
+  - id: 25
+    priority: 30
+    label: "\u5217\u4EA4\u4EE3(\u5F8C\u9032)"
+    parent: -1
+    type: 0
+    module: Backward
+  - id: 45
+    priority: 35
+    label: "\u5217\u7570\u52D5"
+    parent: -1
+    type: 0
+    module: Transfer
+  - id: 46
+    priority: 40
+    label: "\u6575\u8FFD\u5C3E"
+    parent: -1
+    type: 0
+    module: Chase
+  actions:
+  - id: 6
+    priority: 10
+    label: "\u524D\u3078\u79FB\u52D5"
+    parent: 39
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Move
+    evaluate:
+    - method: IsInSearchRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+    - method: CheckNearDeployTarget
+      args:
+      - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:0.5
+    - method: IsMovable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    - method: GoThrough
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+    continuous:
+    - method: Never
+      args: []
+  - id: 55
+    priority: 12
+    label: "\u7A81\u7834\u3057\u305F"
+    parent: 53
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Approach
+    evaluate:
+    - method: IsAttackable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    - method: GoThrough
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    - method: IsInSearchRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+    continuous:
+    - method: IsInAttackRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+  - id: 8
+    priority: 14
+    label: "\u6575\u306B\u8FD1\u3065\u304F"
+    parent: 7
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Approach
+    evaluate:
+    - method: IsInSearchRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    - method: IsMovable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    continuous:
+    - method: IsInAttackRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+  - id: 9
+    priority: 15
+    label: "\u653B\u6483\u3059\u308B"
+    parent: 7
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Attack
+    evaluate:
+    - method: IsAttackable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    continuous:
+    - method: IsInAttackRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+  - id: 5
+    priority: 16
+    label: "\u5F85\u6A5F"
+    parent: 22
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Idle
+    evaluate:
+    - method: IsMovable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    continuous: []
+  - id: 63
+    priority: 19
+    label: "\u6575\u306B\u8FD1\u3065\u304F2"
+    parent: 62
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Approach
+    evaluate:
+    - method: IsInSearchRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    - method: IsMovable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    continuous:
+    - method: IsInAttackRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+  - id: 17
+    priority: 20
+    label: "\u653B\u64832"
+    parent: 62
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Attack
+    evaluate:
+    - method: IsInAttackRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    - method: IsAttackable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    continuous:
+    - method: IsInAttackRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+  - id: 19
+    priority: 23
+    label: "\u524D\u3078\u79FB\u52D52"
+    parent: 42
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Move
+    evaluate:
+    - method: IsMovable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    - method: IsInSearchRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+    continuous:
+    - method: IsInDeployPos
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+  - id: 61
+    priority: 26
+    label: "\u5F8C\u308D\u3078\u79FB\u52D52"
+    parent: 59
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Move
+    evaluate:
+    - method: IsMovable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    continuous:
+    - method: IsInDeployPos
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+  - id: 18
+    priority: 27
+    label: "\u5F85\u6A5F2"
+    parent: 16
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Idle
+    evaluate:
+    - method: IsMovable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    continuous: []
+  - id: 36
+    priority: 32
+    label: "\u4EA4\u4EE3\u958B\u59CB"
+    parent: 35
+    type: 4
+    order:
+    - method: SetSwapMode
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+    evaluate: []
+    continuous:
+    - method: Always
+      args: []
+  - id: 27
+    priority: 33
+    label: "\u5217\u4EA4\u4EE3\uFF08\u5F8C\u9032\uFF09"
+    parent: 35
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Move
+    evaluate: []
+    continuous:
+    - method: CheckNearDeployTarget
+      args:
+      - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:0.5
+  - id: 37
+    priority: 34
+    label: "\u4EA4\u4EE3\u7D42\u4E86"
+    parent: 35
+    type: 4
+    order:
+    - method: SetSwapMode
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    evaluate: []
+    continuous:
+    - method: Always
+      args: []
+  - id: 49
+    priority: 37
+    label: "\u7570\u52D5\u958B\u59CB"
+    parent: 47
+    type: 4
+    order:
+    - method: SetSwapMode
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+    evaluate: []
+    continuous:
+    - method: Always
+      args: []
+  - id: 48
+    priority: 38
+    label: "\u5217\u7570\u52D5"
+    parent: 47
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Move
+    evaluate: []
+    continuous:
+    - method: CheckNearDeployTarget
+      args:
+      - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:2
+  - id: 50
+    priority: 39
+    label: "\u7570\u52D5\u7D42\u4E86"
+    parent: 47
+    type: 4
+    order:
+    - method: SetSwapMode
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    evaluate: []
+    continuous:
+    - method: Always
+      args: []
+  - id: 57
+    priority: 42
+    label: "\u6575\u306B\u8FD1\u3065\u304F"
+    parent: 51
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Approach
+    evaluate:
+    - method: IsMovable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    continuous:
+    - method: IsInAttackRange
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:True
+  - id: 58
+    priority: 43
+    label: "\u653B\u6483\u3059\u308B"
+    parent: 51
+    type: 4
+    order:
+    - method: ChangeState
+      args:
+      - Project.Game.CharacterState+State, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null:Attack
+    evaluate:
+    - method: IsAttackable
+      args:
+      - System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:False
+    continuous: []
+  contidionals:
+  - id: 11
+    priority: 3
+    label: "\u30C7\u30D5\u30A9\u30EB\u30C8\u5224\u5B9A"
+    parent: 3
+    type: 3
+    conditional:
+      method: Always
+      args: []
+  - id: 20
+    priority: 6
+    label: "\u6700\u524D\u5217\u304B"
+    parent: 15
+    type: 3
+    conditional:
+      method: CheckAbreast
+      args:
+      - Abreast, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null:First
+  - id: 43
+    priority: 22
+    label: "\u5C55\u958B\u4F4D\u7F6E\u304B\u3089\u9060\u3044\u304B"
+    parent: 42
+    type: 3
+    conditional:
+      method: CheckForwardDeployTarget
+      args:
+      - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:0.5
+  - id: 60
+    priority: 25
+    label: Conditional:43
+    parent: 59
+    type: 3
+    conditional:
+      method: CheckBackwardDeployTarget
+      args:
+      - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:0.5
+  - id: 12
+    priority: 29
+    label: "\u9032\u307F\u3059\u304E\u305F\u5224\u5B9A"
+    parent: 10
+    type: 3
+    conditional:
+      method: Always
+      args: []
+  selectors:
+  - id: 14
+    priority: 1
+    label: "AI\u5206\u5C90"
+    parent: 1
+    type: 1
+  - id: 2
+    priority: 4
+    label: "\u5B9F\u884C\u9078\u629E"
+    parent: 3
+    type: 1
+  - id: 22
+    priority: 7
+    label: Selector:22
+    parent: 15
+    type: 1
+  - id: 56
+    priority: 8
+    label: Selector:56
+    parent: 22
+    type: 1
+  - id: 16
+    priority: 17
+    label: "2\u5217\u76EE\u4EE5\u964D"
+    parent: 2
+    type: 1
+  sequences:
+  - id: 3
+    priority: 2
+    label: "\u30C7\u30D5\u30A9\u30EB\u30C8"
+    parent: 14
+    type: 2
+  - id: 15
+    priority: 5
+    label: "\u6700\u524D\u5217"
+    parent: 2
+    type: 2
+  - id: 39
+    priority: 9
+    label: "\u524D\u9032"
+    parent: 56
+    type: 2
+  - id: 53
+    priority: 11
+    label: "\u5305\u56F2"
+    parent: 56
+    type: 2
+  - id: 7
+    priority: 13
+    label: "\u653B\u6483\u524D\u3078"
+    parent: 22
+    type: 2
+  - id: 62
+    priority: 18
+    label: "\u8FD1\u304F\u306B\u6575\u304C\u3044\u305F\u3089\u653B\u6483 "
+    parent: 16
+    type: 2
+  - id: 42
+    priority: 21
+    label: "\u524D\u306B\u9032\u3080\u304B"
+    parent: 16
+    type: 2
+  - id: 59
+    priority: 24
+    label: Sequence:59
+    parent: 16
+    type: 2
+  - id: 10
+    priority: 28
+    label: "\u9032\u307F\u3059\u304E\u305F"
+    parent: 14
+    type: 2
+  - id: 35
+    priority: 31
+    label: Sequence:35
+    parent: 25
+    type: 2
+  - id: 47
+    priority: 36
+    label: Sequence:47
+    parent: 45
+    type: 2
+  - id: 51
+    priority: 41
+    label: "\u8FFD\u5C3E"
+    parent: 46
+    type: 2

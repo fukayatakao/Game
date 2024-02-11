@@ -1,0 +1,32 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "なし",
+        "Model":  "",
+        "Capacity":  "0",
+        "Volume":  "0",
+        "Range":  "",
+        "Cost":  "",
+        "PurchasePrice":  ""
+    },
+    {
+        "Id":  "1",
+        "DbgName":  "倉庫",
+        "Model":  "Storage/StorageSmall",
+        "Capacity":  "4",
+        "Volume":  "500",
+        "Range":  "70",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "2",
+        "DbgName":  "倉庫(大)",
+        "Model":  "Storage/StorageLarge",
+        "Capacity":  "6",
+        "Volume":  "1000",
+        "Range":  "100",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    }
+]

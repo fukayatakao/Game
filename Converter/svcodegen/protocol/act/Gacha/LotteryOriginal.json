@@ -1,0 +1,39 @@
+{
+	"Action":{
+		"ClassComment": "オリジナルキャラクター抽選",
+		"ClassName": "LotteryOriginal",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"int",
+					"name":"species",
+					"comment": "指定種族"
+				},
+				{
+					"type":"string",
+					"name":"portraitKey",
+					"comment": "ポートレート画像の取得キー"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"CharacterData",
+					"name":"characterData",
+					"comment": "キャラ個体データ"
+				}
+			]
+		}
+	}
+}

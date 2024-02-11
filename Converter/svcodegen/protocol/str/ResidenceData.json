@@ -1,0 +1,34 @@
+{
+	"Struct":
+	{
+		"ClassComment":"Residence情報",
+		"ClassName":"ResidenceData",
+		"member":[
+			{
+				"type":"int",
+				"name":"id",
+				"comment": "識別子"
+			},
+			{
+				"type":"int",
+				"name":"baseId",
+				"comment": "ResidenceBaseのid"
+			},
+			{
+				"type":"Vector3",
+				"name":"position",
+				"comment": "座標"
+			},
+			{
+				"type":"float",
+				"name":"radius",
+				"comment": "流通半径"
+			},
+			{
+				"type":"float",
+				"name":"satify",
+				"comment": "満足度"
+			}
+		]
+	}
+}

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Character-Action
+  m_EditorClassIdentifier: 
+  m_GroupName: Character-Action
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 08aa094b3cb586c4b9cdc1cc8c412e22
+  m_SerializeEntries:
+  - m_GUID: 92ffffddcf39ce94bbc2a22ae9717736
+    m_Address: Character/Action/SiegeEngine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-SiegeEngine
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d5d0505c808b8547843a18b969ccbba
+    m_Address: Character/Action/RPGHero
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-RPGHero
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58ac4dbc16d299c42982c0fd797d1319
+    m_Address: Character/Action/Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-Normal
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c460692cf75ee2446974020d8a3ad877
+    m_Address: Character/Action/Mage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-Mage
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d4bf2d522fb2b444ba371e27755512a
+    m_Address: Character/Action/Leader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-Leader
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d1b6ada8cf19cf499497128641b28e4
+    m_Address: Character/Action/Knight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-Knight
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16f4d79b6a85a3d4ba0579472d67dc72
+    m_Address: Character/Action/Horseman
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-Horseman
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fde21bc4e8de34f49a1b4256de2e0016
+    m_Address: Character/Action/Griffin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-Griffin
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e79cdaf9fe6bcc94eaff94fd0f55979a
+    m_Address: Character/Action/Footman
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-Footman
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf0e079d9ef8c63449c51872e41bd4a3
+    m_Address: Character/Action/DragonTerrorBringer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-DragonTerrorBringer
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e65ace43176b6e4899b243e6b3b9289
+    m_Address: Character/Action/DragonSoulEater
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-DragonSoulEater
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fc3429f8d50a7e468dece48e979d544
+    m_Address: Character/Action/Archer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-Archer
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c088709932632da4ebdabd04c87f8f5d
+    m_Address: Character/Action/Dummy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Action-Dummy
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8176ea9ab49531e409d67e984a8af9b1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a34ad931e210bb840b7a6da6ed593096, type: 2}
+    - {fileID: 11400000, guid: 66778f4cc9f7e8848bcc1253da288c38, type: 2}

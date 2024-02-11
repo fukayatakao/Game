@@ -1,0 +1,42 @@
+[submodule "Assets/Application/Script/Lib/Common"]
+	path = Assets/Application/Script/Lib/Common
+	url = git@gitlab.com:presidente.mk2/project.lib.common.git
+[submodule "Assets/Application/Script/Lib/DebugWindow"]
+	path = Assets/Application/Script/Lib/DebugWindow
+	url = git@gitlab.com:presidente.mk2/project.lib.debugwindow.git
+[submodule "Assets/Application/Script/Package/DebugWindow"]
+	path = Assets/Application/Script/Package/DebugWindow
+	url = git@gitlab.com:presidente.mk2/project.lib.debugwindow.git
+[submodule "Assets/Application/Script/Package/Common"]
+	path = Assets/Application/Script/Package/Common
+	url = git@gitlab.com:presidente.mk2/project.lib.common.git
+[submodule "Assets/Application/Script/Package/AddressableAssist"]
+	path = Assets/Application/Script/Package/AddressableAssist
+	url = git@gitlab.com:presidente.mk2/project.lib.addressableassist.git
+[submodule "Assets/Application/Script/Package/Animation"]
+	path = Assets/Application/Script/Package/Animation
+	url = git@gitlab.com:presidente.mk2/project.lib.animation.git
+[submodule "Assets/Application/Script/Package/Astar"]
+	path = Assets/Application/Script/Package/Astar
+	url = git@gitlab.com:presidente.mk2/project.lib.astar.git
+[submodule "Assets/Application/Script/Package/BehaviorSequence"]
+	path = Assets/Application/Script/Package/BehaviorSequence
+	url = git@gitlab.com:presidente.mk2/project.lib.behaviorsequence.git
+[submodule "Assets/Application/Script/Package/BehaviorTree"]
+	path = Assets/Application/Script/Package/BehaviorTree
+	url = git@gitlab.com:presidente.mk2/project.lib.behaviortree.git
+[submodule "Assets/Application/Script/Package/Collision"]
+	path = Assets/Application/Script/Package/Collision
+	url = git@gitlab.com:presidente.mk2/project.lib.collision.git
+[submodule "Assets/Application/Script/Package/Entity"]
+	path = Assets/Application/Script/Package/Entity
+	url = git@gitlab.com:presidente.mk2/project.lib.entity.git
+[submodule "Assets/Application/Script/Package/Gesture"]
+	path = Assets/Application/Script/Package/Gesture
+	url = git@gitlab.com:presidente.mk2/project.lib.gesture.git
+[submodule "Assets/Application/Script/Package/Touch"]
+	path = Assets/Application/Script/Package/Touch
+	url = git@gitlab.com:presidente.mk2/project.lib.touch.git
+[submodule "Assets/Application/Script/Package/Primitive"]
+	path = Assets/Application/Script/Package/Primitive
+	url = git@gitlab.com:presidente.mk2/project.lib.primitive.git

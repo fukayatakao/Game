@@ -1,0 +1,34 @@
+{
+	"Action":{
+		"ClassComment": "サービス施設を撤去する",
+		"ClassName": "DemolishService",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"ServiceData",
+					"name":"serviceData",
+					"comment": "撤去された倉庫"
+				},
+				{
+					"type":"List<ChainData>",
+					"name":"chain",
+					"comment": "削除されたChain"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+			]
+		}
+	}
+}

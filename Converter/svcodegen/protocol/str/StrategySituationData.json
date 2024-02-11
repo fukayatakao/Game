@@ -1,0 +1,44 @@
+{
+	"Struct":
+	{
+		"ClassComment":"戦略マップ情報",
+		"ClassName":"StrategySituationData",
+		"member":[
+			{
+				"type":"List<PlatoonData>",
+				"name":"invader",
+				"comment": "未配置攻撃側部隊情報"
+			},
+			{
+				"type":"List<PlatoonData>",
+				"name":"defender",
+				"comment": "未配置守備側部隊情報(?)"
+			},
+			{
+				"type":"List<StrategyLocationData>",
+				"name":"invaderLocation",
+				"comment": "配置済攻撃部隊"
+			},
+			{
+				"type":"List<StrategyLocationData>",
+				"name":"defenderLocation",
+				"comment": "配置済守備部隊"
+			},
+			{
+				"type":"int",
+				"name":"mapId",
+				"comment": "マップモデル"
+			},
+			{
+				"type":"int",
+				"name":"turn",
+				"comment": "ターン"
+			},
+			{
+				"type":"List<int>",
+				"name":"available",
+				"comment": "行動可能部隊"
+			}
+		]
+	}
+}

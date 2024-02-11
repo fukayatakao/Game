@@ -1,0 +1,54 @@
+{
+	"Struct":
+	{
+		"ClassComment":"Town情報",
+		"ClassName":"TownData",
+		"member":[
+			{
+				"type":"int",
+				"name":"tax",
+				"comment": "税率"
+			},
+			{
+				"type":"int",
+				"name":"identifer",
+				"comment": "識別子の開始番号"
+			},
+			{
+				"type":"TownhallData",
+				"name":"townhall",
+				"comment": "タウンホール"
+			},
+			{
+				"type":"List<FactoryData>",
+				"name":"factories",
+				"comment": "Factoryリスト"
+			},
+			{
+				"type":"List<StorageData>",
+				"name":"storages",
+				"comment": "Storageリスト"
+			},
+			{
+				"type":"List<MarketData>",
+				"name":"markets",
+				"comment": "Marketリスト"
+			},
+			{
+				"type":"List<ResidenceData>",
+				"name":"residences",
+				"comment": "Residenceリスト"
+			},
+			{
+				"type":"List<ServiceData>",
+				"name":"services",
+				"comment": "Serviceリスト"
+			},
+			{
+				"type":"List<ChainData>",
+				"name":"chainList",
+				"comment": "Chainリスト"
+			}
+		]
+	}
+}

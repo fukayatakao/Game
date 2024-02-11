@@ -1,0 +1,50 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "なし",
+        "Model":  "",
+        "Price":  ""
+    },
+    {
+        "Id":  "1",
+        "DbgName":  "中間品",
+        "Model":  "",
+        "Price":  "100"
+    },
+    {
+        "Id":  "2",
+        "DbgName":  "食料品",
+        "Model":  "",
+        "Price":  "100"
+    },
+    {
+        "Id":  "3",
+        "DbgName":  "嗜好品",
+        "Model":  "",
+        "Price":  "300"
+    },
+    {
+        "Id":  "4",
+        "DbgName":  "生活用品",
+        "Model":  "",
+        "Price":  "100"
+    },
+    {
+        "Id":  "5",
+        "DbgName":  "衣料品",
+        "Model":  "",
+        "Price":  "200"
+    },
+    {
+        "Id":  "6",
+        "DbgName":  "武具品",
+        "Model":  "",
+        "Price":  "100"
+    },
+    {
+        "Id":  "7",
+        "DbgName":  "サービス",
+        "Model":  "",
+        "Price":  "100"
+    }
+]

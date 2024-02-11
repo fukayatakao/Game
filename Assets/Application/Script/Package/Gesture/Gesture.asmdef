@@ -1,0 +1,17 @@
+{
+    "name": "Project.Lib.Gesture",
+    "rootNamespace": "",
+    "references": [
+        "Project.Lib.Common",
+        "Project.Lib.DebugWindow"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

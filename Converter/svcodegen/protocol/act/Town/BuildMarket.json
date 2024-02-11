@@ -1,0 +1,32 @@
+{
+	"Action":{
+		"ClassComment": "マーケットを建てる",
+		"ClassName": "BuildMarket",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"MarketData",
+					"name":"marketData",
+					"comment": "追加されたマーケット"
+				},
+				{
+					"type":"List<ChainData>",
+					"name":"chain",
+					"comment": "追加されたChain"
+				}
+			]
+		},
+		"Response":{
+		}
+	}
+}

@@ -1,0 +1,69 @@
+{
+	"Struct":
+	{
+		"ClassComment":"キャラ個体情報",
+		"ClassName":"CharacterData",
+		"member":[
+			{
+				"type":"int",
+				"name":"id",
+				"comment": "管理ID"
+			},
+			{
+				"type":"string",
+				"name":"name",
+				"comment": "名前"
+			},
+			{
+				"type":"int",
+				"name":"species",
+				"comment": "種族"
+			},
+			{
+				"type":"bool",
+				"name":"generate",
+				"comment": "生成されたオリジナル画像か"
+			},
+			{
+				"type":"string",
+				"name":"portrait",
+				"comment": "サムネイル画像"
+			},
+			{
+				"type":"List<int>",
+				"name":"ability",
+				"comment": "アビリティ"
+			},
+			{
+				"type": "int",
+				"name":"phase",
+				"comment": "属性"
+			},
+			{
+				"type": "int",
+				"name": "stayId",
+				"comment": "住居Id"
+			},
+			{
+				"type": "int",
+				"name": "staySlotId",
+				"comment": "住居スロット番号"
+			},
+			{
+				"type": "int",
+				"name": "workId",
+				"comment": "職場Id"
+			},
+			{
+				"type": "int",
+				"name": "workSlotId",
+				"comment": "職場スロット番号"
+			},
+			{
+				"type": "int",
+				"name": "grade",
+				"comment": "生活水準"
+			}
+		]
+	}
+}

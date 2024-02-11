@@ -1,0 +1,92 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "なし",
+        "UnitId":  "",
+        "SkillA":  "",
+        "SkillB":  "",
+        "SkillC":  "",
+        "SkillD":  ""
+    },
+    {
+        "Id":  "1",
+        "DbgName":  "ユニティちゃん（大）",
+        "UnitId":  "1000",
+        "SkillA":  "1",
+        "SkillB":  "2",
+        "SkillC":  "3",
+        "SkillD":  "4"
+    },
+    {
+        "Id":  "2",
+        "DbgName":  "ドラゴンSoulEater",
+        "UnitId":  "1001",
+        "SkillA":  "10",
+        "SkillB":  "",
+        "SkillC":  "0",
+        "SkillD":  "0"
+    },
+    {
+        "Id":  "3",
+        "DbgName":  "ドラゴンTerrorBringer",
+        "UnitId":  "1002",
+        "SkillA":  "",
+        "SkillB":  "",
+        "SkillC":  "0",
+        "SkillD":  "0"
+    },
+    {
+        "Id":  "4",
+        "DbgName":  "ユニティちゃん(夏)",
+        "UnitId":  "1003",
+        "SkillA":  "1",
+        "SkillB":  "",
+        "SkillC":  "0",
+        "SkillD":  "0"
+    },
+    {
+        "Id":  "5",
+        "DbgName":  "ユニティちゃん(冬)",
+        "UnitId":  "1004",
+        "SkillA":  "1",
+        "SkillB":  "",
+        "SkillC":  "0",
+        "SkillD":  "0"
+    },
+    {
+        "Id":  "6",
+        "DbgName":  "みさき(夏)",
+        "UnitId":  "1005",
+        "SkillA":  "1",
+        "SkillB":  "",
+        "SkillC":  "0",
+        "SkillD":  "0"
+    },
+    {
+        "Id":  "7",
+        "DbgName":  "みさき(冬)",
+        "UnitId":  "1006",
+        "SkillA":  "1",
+        "SkillB":  "",
+        "SkillC":  "0",
+        "SkillD":  "0"
+    },
+    {
+        "Id":  "8",
+        "DbgName":  "ゆうこ(夏)",
+        "UnitId":  "1007",
+        "SkillA":  "1",
+        "SkillB":  "",
+        "SkillC":  "0",
+        "SkillD":  "0"
+    },
+    {
+        "Id":  "9",
+        "DbgName":  "ゆうこ(冬)",
+        "UnitId":  "1008",
+        "SkillA":  "1",
+        "SkillB":  "",
+        "SkillC":  "0",
+        "SkillD":  "0"
+    }
+]

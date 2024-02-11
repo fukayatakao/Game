@@ -1,0 +1,52 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "なし",
+        "Model":  "",
+        "Capacity":  "0",
+        "Article":  "0",
+        "Range":  "0",
+        "Cost":  "",
+        "PurchasePrice":  ""
+    },
+    {
+        "Id":  "1",
+        "DbgName":  "マーケット(食料品)",
+        "Model":  "Market/GroceryStore",
+        "Capacity":  "2",
+        "Article":  "2",
+        "Range":  "100",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "2",
+        "DbgName":  "マーケット(嗜好品)",
+        "Model":  "Market/LuxuryStore",
+        "Capacity":  "1",
+        "Article":  "3",
+        "Range":  "100",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "3",
+        "DbgName":  "マーケット(衣料品)",
+        "Model":  "Market/ClothingStore",
+        "Capacity":  "1",
+        "Article":  "5",
+        "Range":  "120",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "4",
+        "DbgName":  "マーケット(武具品)",
+        "Model":  "Market/ArmStore",
+        "Capacity":  "2",
+        "Article":  "4",
+        "Range":  "160",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    }
+]

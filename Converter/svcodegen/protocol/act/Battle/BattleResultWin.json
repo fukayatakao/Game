@@ -1,0 +1,44 @@
+{
+	"Action":{
+		"ClassComment": "攻撃側の勝利",
+		"ClassName": "BattleResultWin",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"int",
+					"name":"invaderId",
+					"comment": "攻撃側部隊ID"
+				},
+				{
+					"type":"int",
+					"name":"defenderId",
+					"comment": "防衛側部隊ID"
+				},
+				{
+					"type":"int",
+					"name":"nodeId",
+					"comment": "ノードID"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"StrategySituationData",
+					"name":"situation",
+					"comment": "情報"
+				}
+			]
+		}
+	}
+}

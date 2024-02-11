@@ -1,0 +1,12 @@
+-warnaserror+
+-warnaserror-:219,168,169,414,618,649,1692,1998
+#-define:USE_OFFLINE
+#-define:USE_MONOBEHAVIOUR
+#-define:DEVELOP_BUILD
+#ぷニコン的な処理を使う場合は有効にする
+#define:USE_PUNICON_CONTROL
+#Unityのシーン遷移によるGameObject破棄を期待しないで自力で破棄する場合は有効にする
+#-define:MANUAL_DESTROY
+#-define:UNITY_ENGINE_WRAPPER
+#UnityのTimeを上書きしてdeltaTimeを固定するときに有効にする
+#-define:UNITY_TIME_WRAPPER

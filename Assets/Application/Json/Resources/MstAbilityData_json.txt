@@ -1,0 +1,66 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "なし",
+        "Group":  "",
+        "Rarity":  "",
+        "Type":  "",
+        "Value":  ""
+    },
+    {
+        "Id":  "1",
+        "DbgName":  "攻撃力5%アップ",
+        "Group":  "1",
+        "Rarity":  "1",
+        "Type":  "1",
+        "Value":  "5"
+    },
+    {
+        "Id":  "2",
+        "DbgName":  "攻撃力10%アップ",
+        "Group":  "1",
+        "Rarity":  "2",
+        "Type":  "1",
+        "Value":  "10"
+    },
+    {
+        "Id":  "3",
+        "DbgName":  "攻撃力15%アップ",
+        "Group":  "1",
+        "Rarity":  "3",
+        "Type":  "1",
+        "Value":  "15"
+    },
+    {
+        "Id":  "4",
+        "DbgName":  "防御力5%アップ",
+        "Group":  "2",
+        "Rarity":  "1",
+        "Type":  "2",
+        "Value":  "5"
+    },
+    {
+        "Id":  "5",
+        "DbgName":  "防御力10%アップ",
+        "Group":  "2",
+        "Rarity":  "2",
+        "Type":  "2",
+        "Value":  "10"
+    },
+    {
+        "Id":  "6",
+        "DbgName":  "防御力15%アップ",
+        "Group":  "2",
+        "Rarity":  "3",
+        "Type":  "2",
+        "Value":  "15"
+    },
+    {
+        "Id":  "7",
+        "DbgName":  "攻撃力5%アップ",
+        "Group":  "0",
+        "Rarity":  "1",
+        "Type":  "1",
+        "Value":  "5"
+    }
+]

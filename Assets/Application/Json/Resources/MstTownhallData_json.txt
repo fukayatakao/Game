@@ -1,0 +1,18 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "なし",
+        "Model":  "",
+        "Cost":  "",
+        "Logistics":  "",
+        "Range":  "0"
+    },
+    {
+        "Id":  "1",
+        "DbgName":  "城",
+        "Model":  "Special/Castle",
+        "Cost":  "0",
+        "Logistics":  "500",
+        "Range":  "100"
+    }
+]

@@ -1,0 +1,34 @@
+{
+	"Action":{
+		"ClassComment": "倉庫を撤去する",
+		"ClassName": "DemolishStorage",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"StorageData",
+					"name":"storageData",
+					"comment": "撤去された倉庫"
+				},
+				{
+					"type":"List<ChainData>",
+					"name":"chain",
+					"comment": "削除されたChain"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+			]
+		}
+	}
+}

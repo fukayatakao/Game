@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e94f9e36c3d7c340923e389da40c7a3, type: 3}
+  m_Name: Archer_OpeningEntry
+  m_EditorClassIdentifier: 
+  entityType: Project.Game.CharacterEntity
+  eventDataList:
+  - execTime: 0
+    method: PlayActEventAnimation
+    args:
+    - System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:Archer_Walk
+    types: 00000000
+    argsBinary: 
+  - execTime: 0
+    method: Move
+    args:
+    - UnityEngine.Vector3:0,0,3
+    - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:3
+    types: 0700000005000000
+    argsBinary: 00000000000000000000404000004040
+  - execTime: 0
+    method: ChangeAlphaLinear
+    args:
+    - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:0
+    - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:1
+    - System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:1.5
+    types: 050000000500000005000000
+    argsBinary: 000000000000803f0000c03f
+  - execTime: 1.3333334
+    method: Termination
+    args: []
+    types: 
+    argsBinary: 
+  - execTime: 1.3333334
+    method: PlayActEventAnimation
+    args:
+    - System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:Archer_Idle
+    types: 00000000
+    argsBinary: 
+  - execTime: 2.6666667
+    method: Termination
+    args: []
+    types: 
+    argsBinary: 
+  curveList: []
+  resourceList: []

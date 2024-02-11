@@ -1,0 +1,40 @@
+{
+	"Action":{
+		"ClassComment": "クエストバトル開始",
+		"ClassName": "QuestBattle",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"int",
+					"name":"invaderId",
+					"comment": "攻撃側部隊ID"
+				},
+				{
+					"type":"int",
+					"name":"questId",
+					"comment": "クエストID"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"BattleSituationData",
+					"name":"situation",
+					"comment": "バトル情報"
+				}
+
+			]
+		}
+	}
+}

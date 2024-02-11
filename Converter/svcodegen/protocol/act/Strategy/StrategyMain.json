@@ -1,0 +1,29 @@
+{
+	"Action":{
+		"ClassComment": "戦略シーン開始",
+		"ClassName": "StrategyMain",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"StrategySituationData",
+					"name":"situation",
+					"comment": "情報"
+				}
+			]
+		}
+	}
+}

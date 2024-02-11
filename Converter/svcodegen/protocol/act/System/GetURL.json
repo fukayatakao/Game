@@ -1,0 +1,69 @@
+{
+	"Action":{
+		"ClassComment": "通信先URL取得",
+		"ClassName": "GetUrl",
+		"Config" : {
+			"server": "root",
+			"api": "common",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "30",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"string",
+					"name":"check_code",
+					"comment": "クライアント側チェックコード"
+				},
+				{
+					"type":"int",
+					"name":"platform",
+					"comment": "プラットフォームID PlatformDef.cs"
+				},
+				{
+					"type":"int",
+					"name":"language",
+					"comment": "言語 LanguageDef"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"string",
+					"name":"asset_bundle_url",
+					"comment": ""
+				},
+				{
+					"type":"string",
+					"name":"asset_bundle_version",
+					"comment": ""
+				},
+				{
+					"type":"string",
+					"name":"base_data_url",
+					"comment": "接続先URL"
+				},
+				{
+					"type":"string",
+					"name":"notice_url",
+					"comment": "告知URL"
+				},
+				{
+					"type":"string",
+					"name":"server_id",
+					"comment": "ユーザーID保存用"
+				},
+				{
+					"type":"int",
+					"name":"is_need_version_up",
+					"comment": "バージョンアップが必要フラグ"
+				}
+			]
+		}
+	}
+}

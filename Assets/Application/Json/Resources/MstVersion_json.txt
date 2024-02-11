@@ -1,0 +1,112 @@
+﻿[
+    {
+        "Id":  "0",
+        "Name":  "MstUnitData",
+        "Value":  ""
+    },
+    {
+        "Id":  "1",
+        "Name":  "MstActionData",
+        "Value":  ""
+    },
+    {
+        "Id":  "2",
+        "Name":  "MstEnemyCorps",
+        "Value":  ""
+    },
+    {
+        "Id":  "3",
+        "Name":  "MstEnemyMemberParam",
+        "Value":  ""
+    },
+    {
+        "Id":  "4",
+        "Name":  "MstEnemyLeaderParam",
+        "Value":  ""
+    },
+    {
+        "Id":  "5",
+        "Name":  "MstFieldData",
+        "Value":  ""
+    },
+    {
+        "Id":  "6",
+        "Name":  "MstArticleData",
+        "Value":  ""
+    },
+    {
+        "Id":  "7",
+        "Name":  "MstFactoryData",
+        "Value":  ""
+    },
+    {
+        "Id":  "8",
+        "Name":  "MstGoodsData",
+        "Value":  ""
+    },
+    {
+        "Id":  "9",
+        "Name":  "MstPopulationData",
+        "Value":  ""
+    },
+    {
+        "Id":  "10",
+        "Name":  "MstPopulationDemandData",
+        "Value":  ""
+    },
+    {
+        "Id":  "11",
+        "Name":  "MstResidenceData",
+        "Value":  ""
+    },
+    {
+        "Id":  "12",
+        "Name":  "MstStorageData",
+        "Value":  ""
+    },
+    {
+        "Id":  "13",
+        "Name":  "MstMarketData",
+        "Value":  ""
+    },
+    {
+        "Id":  "14",
+        "Name":  "MstServiceData",
+        "Value":  ""
+    },
+    {
+        "Id":  "15",
+        "Name":  "MstTownhallData",
+        "Value":  ""
+    },
+    {
+        "Id":  "16",
+        "Name":  "MstAbilityData",
+        "Value":  ""
+    },
+    {
+        "Id":  "17",
+        "Name":  "MstStrategyMapData",
+        "Value":  ""
+    },
+    {
+        "Id":  "18",
+        "Name":  "MstStrategyLocationData",
+        "Value":  ""
+    },
+    {
+        "Id":  "19",
+        "Name":  "MstQuestData",
+        "Value":  ""
+    },
+    {
+        "Id":  "20",
+        "Name":  "MstSkillData",
+        "Value":  ""
+    },
+    {
+        "Id":  "21",
+        "Name":  "MstLeaderData",
+        "Value":  ""
+    }
+]

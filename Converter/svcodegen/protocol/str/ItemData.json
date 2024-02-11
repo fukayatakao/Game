@@ -1,0 +1,29 @@
+{
+	"Struct":
+	{
+		"ClassComment":"アイテム情報",
+		"ClassName":"ItemData",
+		"member":[
+			{
+				"type":"int",
+				"name":"classify",
+				"comment": "アイテム分類"
+			},
+			{
+				"type":"int",
+				"name":"type",
+				"comment": "アイテム種別"
+			},
+			{
+				"type":"int",
+				"name":"id",
+				"comment": "アイテムId"
+			},
+			{
+				"type":"int",
+				"name":"number",
+				"comment": "アイテム数"
+			}
+		]
+	}
+}

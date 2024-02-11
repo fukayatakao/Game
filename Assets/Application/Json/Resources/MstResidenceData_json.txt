@@ -1,0 +1,101 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "なし",
+        "Model":  "",
+        "Population":  "0",
+        "RoomCount":  "0",
+        "Range":  "0",
+        "MaxGrade":  "",
+        "Cost":  "",
+        "PurchasePrice":  ""
+    },
+    {
+        "Id":  "1",
+        "DbgName":  "長屋Lv1",
+        "Model":  "Residence/Tenement",
+        "Population":  "100",
+        "RoomCount":  "8",
+        "Range":  "0",
+        "MaxGrade":  "3",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "2",
+        "DbgName":  "長屋Lv2",
+        "Model":  "Residence/Tenement",
+        "Population":  "101",
+        "RoomCount":  "8",
+        "Range":  "0",
+        "MaxGrade":  "4",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "3",
+        "DbgName":  "長屋Lv3",
+        "Model":  "Residence/Tenement",
+        "Population":  "102",
+        "RoomCount":  "8",
+        "Range":  "0",
+        "MaxGrade":  "5",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "4",
+        "DbgName":  "長屋Lv3.1",
+        "Model":  "Residence/Tenement",
+        "Population":  "102",
+        "RoomCount":  "8",
+        "Range":  "0",
+        "MaxGrade":  "6",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "5",
+        "DbgName":  "兵舎",
+        "Model":  "Residence/Barracks",
+        "Population":  "200",
+        "RoomCount":  "2",
+        "Range":  "0",
+        "MaxGrade":  "5",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "6",
+        "DbgName":  "城",
+        "Model":  "Residence/Castle",
+        "Population":  "300",
+        "RoomCount":  "1",
+        "Range":  "0",
+        "MaxGrade":  "10",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "7",
+        "DbgName":  "教会",
+        "Model":  "Residence/Church",
+        "Population":  "400",
+        "RoomCount":  "1",
+        "Range":  "0",
+        "MaxGrade":  "10",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    },
+    {
+        "Id":  "8",
+        "DbgName":  "豪邸",
+        "Model":  "Residence/House",
+        "Population":  "500",
+        "RoomCount":  "1",
+        "Range":  "0",
+        "MaxGrade":  "10",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    }
+]

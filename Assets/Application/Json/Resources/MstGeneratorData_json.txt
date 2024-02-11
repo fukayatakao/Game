@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "なし",
+        "Model":  "",
+        "Price":  "",
+        "Item":  "",
+        "Point":  "",
+        "Cost":  "",
+        "PurchasePrice":  ""
+    },
+    {
+        "Id":  "1",
+        "DbgName":  "研究所",
+        "Model":  "",
+        "Price":  "100",
+        "Item":  "研究ポイント",
+        "Point":  "",
+        "Cost":  "1",
+        "PurchasePrice":  "100"
+    }
+]

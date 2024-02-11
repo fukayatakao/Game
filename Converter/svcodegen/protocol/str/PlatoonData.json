@@ -1,0 +1,30 @@
+{
+	"Struct":
+	{
+		"ClassComment":"小隊情報",
+		"ClassName":"PlatoonData",
+		"member":[
+			{
+				"type":"int",
+				"name":"id",
+				"comment": "管理ID"
+			},
+			{
+				"type":"string",
+				"name":"name",
+				"comment": "小隊名"
+			},
+			{
+				"type":"int",
+				"name":"experience",
+				"comment": "熟練度"
+			},
+			{
+				"type":"List<SquadData>",
+				"name":"squads",
+				"comment": "分隊"
+			}
+
+		]
+	}
+}

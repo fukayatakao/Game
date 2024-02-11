@@ -1,0 +1,59 @@
+{
+	"Action":{
+		"ClassComment": "アカウント生成",
+		"ClassName": "RegistAccount",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"string",
+					"name":"device",
+					"comment": "デバイス名"
+				},
+				{
+					"type":"int",
+					"name":"platform",
+					"comment": "プラットフォーム PlatformDef"
+				},
+				{
+					"type":"int",
+					"name":"language",
+					"comment": "言語 LanguageDef"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"string",
+					"name":"uuid",
+					"comment": "UUID"
+				},
+				{
+					"type":"string",
+					"name":"account_id",
+					"comment": "アカウントID"
+				},
+				{
+					"type":"string",
+					"name":"transfer_id",
+					"comment": "引継ぎID"
+				},
+				{
+					"type":"int",
+					"name":"user_id",
+					"comment": "ユーザーID"
+				}
+			]
+		}
+	}
+}

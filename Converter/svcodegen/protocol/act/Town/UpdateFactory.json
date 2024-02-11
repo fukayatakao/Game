@@ -1,0 +1,27 @@
+{
+	"Action":{
+		"ClassComment": "生産施設の設定更新",
+		"ClassName": "UpdateFactory",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"FactoryData",
+					"name":"factoryData",
+					"comment": "更新された生産施設"
+				}
+			]
+		},
+		"Response":{
+		}
+	}
+}

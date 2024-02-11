@@ -1,0 +1,27 @@
+{
+	"Action":{
+		"ClassComment": "住居の設定更新",
+		"ClassName": "UpdateResidence",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"ResidenceData",
+					"name":"residenceData",
+					"comment": "更新された住居"
+				}
+			]
+		},
+		"Response":{
+		}
+	}
+}

@@ -1,0 +1,15 @@
+﻿{
+    "Player": [
+        {
+            "unitId": 4,
+            "number": 8
+        }
+    ],
+    "Enemy": [
+        {
+            "unitId": 2,
+            "number": 10
+        }
+    ],
+    "BattleTimeSecond": 60
+}

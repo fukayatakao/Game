@@ -1,0 +1,27 @@
+{
+	"Action":{
+		"ClassComment": "キャラクターの割り当て更新",
+		"ClassName": "UpdateCharacter",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"List<CharacterData>",
+					"name":"characters",
+					"comment": "更新されたキャラクター"
+				}
+			]
+		},
+		"Response":{
+		}
+	}
+}

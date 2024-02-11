@@ -1,0 +1,32 @@
+{
+	"Action":{
+		"ClassComment": "生産施設を建てる",
+		"ClassName": "BuildFactory",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"FactoryData",
+					"name":"factoryData",
+					"comment": "追加された生産施設"
+				},
+				{
+					"type":"List<ChainData>",
+					"name":"chain",
+					"comment": "追加されたChain"
+				}
+			]
+		},
+		"Response":{
+		}
+	}
+}

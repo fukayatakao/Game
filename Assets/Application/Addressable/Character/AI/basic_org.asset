@@ -1,0 +1,501 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4f562fb7ab93f44ae2c445c2e77491, type: 3}
+  m_Name: basic_org
+  m_EditorClassIdentifier: 
+  EntityType: character
+  StartStateNo: Idle
+  StateDataList:
+  - StateNo: Assault
+    EnterDecision: []
+    ExecuteDecision:
+    - EvaluateFuncNo: IsMovable
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: Empty
+      OrderArgs: []
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInSearchRange
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Move
+      RestrictionFlag: 1
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: ApproachNearEnemy
+      OrderArgs: []
+      RestrictionFlag: 0
+    - EvaluateFuncNo: IsInAttackRange
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Attack
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Move
+      RestrictionFlag: 0
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 1
+    ExitDecision: []
+  - StateNo: AssaultBoss
+    EnterDecision: []
+    ExecuteDecision:
+    - EvaluateFuncNo: IsMovable
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: Empty
+      OrderArgs: []
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsNearEnemyBoss
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 1
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: ApproachNearEnemy
+      OrderArgs: []
+      RestrictionFlag: 0
+    - EvaluateFuncNo: IsInAttackRange
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Attack
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Move
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 1
+    ExitDecision: []
+  - StateNo: Attack
+    EnterDecision: []
+    ExecuteDecision:
+    - EvaluateFuncNo: IsInAttackRange
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Move
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsAttackable
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Attack
+      RestrictionFlag: 0
+    ExitDecision: []
+  - StateNo: Idle
+    EnterDecision: []
+    ExecuteDecision:
+    - EvaluateFuncNo: IsInAttackRange
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Attack
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Move
+      RestrictionFlag: 1
+    - EvaluateFuncNo: CheckFarDeployTarget
+      EvaluateArgs:
+      - System.Single:0.5
+      OrderFuncNo: CalcTaragetPos
+      OrderArgs: []
+      RestrictionFlag: 0
+    - EvaluateFuncNo: IsMovable
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Idle
+      RestrictionFlag: 1
+    ExitDecision: []
+  - StateNo: Move
+    EnterDecision: []
+    ExecuteDecision:
+    - EvaluateFuncNo: IsMovable
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: Empty
+      OrderArgs: []
+      RestrictionFlag: 1
+    - EvaluateFuncNo: CheckFarDeployTarget
+      EvaluateArgs:
+      - System.Single:0.05
+      OrderFuncNo: CalcTaragetPos
+      OrderArgs: []
+      RestrictionFlag: 0
+    - EvaluateFuncNo: IsNearEnemyBoss
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:AssaultBoss
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInSearchRange
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Assault
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Move
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 1
+    ExitDecision: []
+  - StateNo: None
+    EnterDecision: []
+    ExecuteDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 1
+    ExitDecision: []
+  - StateNo: Swap
+    EnterDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetLocalSwap
+      OrderArgs:
+      - System.Boolean:True
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetIgnoewCollision
+      OrderArgs:
+      - System.Boolean:True
+      RestrictionFlag: 0
+    ExecuteDecision:
+    - EvaluateFuncNo: IsMovable
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: Empty
+      OrderArgs: []
+      RestrictionFlag: 1
+    - EvaluateFuncNo: CheckInnerLineRange
+      EvaluateArgs:
+      - System.Single:1
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 0
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Move
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: CalcTaragetPos
+      OrderArgs: []
+      RestrictionFlag: 0
+    ExitDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetLocalSwap
+      OrderArgs:
+      - System.Boolean:False
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: CalcTaragetPos
+      OrderArgs: []
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetIgnoewCollision
+      OrderArgs:
+      - System.Boolean:False
+      RestrictionFlag: 0
+  - StateNo: Migration
+    EnterDecision: []
+    ExecuteDecision:
+    - EvaluateFuncNo: IsMovable
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: Empty
+      OrderArgs: []
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Move
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 1
+    ExitDecision: []
+  - StateNo: Chase
+    EnterDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetLocalSwap
+      OrderArgs:
+      - System.Boolean:True
+      RestrictionFlag: 0
+    ExecuteDecision:
+    - EvaluateFuncNo: IsMovable
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: Empty
+      OrderArgs: []
+      RestrictionFlag: 1
+    - EvaluateFuncNo: CheckTargetEnemy
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Move
+      RestrictionFlag: 1
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: ApproachTargetEnemy
+      OrderArgs: []
+      RestrictionFlag: 0
+    - EvaluateFuncNo: IsInAttackRange
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Attack
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Move
+      RestrictionFlag: 0
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 1
+    ExitDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: CalcTaragetPos
+      OrderArgs: []
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetLocalSwap
+      OrderArgs:
+      - System.Boolean:False
+      RestrictionFlag: 0
+  - StateNo: LineSwapForward
+    EnterDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetIgnoewCollision
+      OrderArgs:
+      - System.Boolean:True
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetSuperArmor
+      OrderArgs:
+      - System.Boolean:True
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetLineSwap
+      OrderArgs:
+      - System.Boolean:True
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetStateDelay
+      OrderArgs: []
+      RestrictionFlag: 0
+    ExecuteDecision:
+    - EvaluateFuncNo: IsMovable
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ResetStateDelay
+      OrderArgs: []
+      RestrictionFlag: 1
+    - EvaluateFuncNo: SetStateDelay
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: Empty
+      OrderArgs: []
+      RestrictionFlag: 1
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: CalcTaragetPos
+      OrderArgs: []
+      RestrictionFlag: 0
+    - EvaluateFuncNo: IsSwapOverForward
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Move
+      RestrictionFlag: 1
+    ExitDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetIgnoewCollision
+      OrderArgs:
+      - System.Boolean:False
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetSuperArmor
+      OrderArgs:
+      - System.Boolean:False
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetLineSwap
+      OrderArgs:
+      - System.Boolean:False
+      RestrictionFlag: 0
+  - StateNo: LineSwapBackward
+    EnterDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetIgnoewCollision
+      OrderArgs:
+      - System.Boolean:True
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetSuperArmor
+      OrderArgs:
+      - System.Boolean:True
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetLineSwap
+      OrderArgs:
+      - System.Boolean:True
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetStateDelay
+      OrderArgs: []
+      RestrictionFlag: 0
+    ExecuteDecision:
+    - EvaluateFuncNo: IsMovable
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ResetStateDelay
+      OrderArgs: []
+      RestrictionFlag: 1
+    - EvaluateFuncNo: SetStateDelay
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: Empty
+      OrderArgs: []
+      RestrictionFlag: 1
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: CalcTaragetPos
+      OrderArgs: []
+      RestrictionFlag: 0
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Move
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Move
+      RestrictionFlag: 0
+    ExitDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetIgnoewCollision
+      OrderArgs:
+      - System.Boolean:False
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetSuperArmor
+      OrderArgs:
+      - System.Boolean:False
+      RestrictionFlag: 0
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: SetLineSwap
+      OrderArgs:
+      - System.Boolean:False
+      RestrictionFlag: 0

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WaymapNode
+  m_EditorClassIdentifier: 
+  m_GroupName: WaymapNode
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4dab29c5d30304448a6b39bb66ca78d9
+  m_SerializeEntries:
+  - m_GUID: adf8acc3f73dbfe479e56be2422f5834
+    m_Address: WaymapNode/Start
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afd08a448f0b51b4393287eee007f130
+    m_Address: WaymapNode/Node
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a996f341b430c5d439ab913808f5684a
+    m_Address: WaymapNode/Goal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8176ea9ab49531e409d67e984a8af9b1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 57173be5389b31749b81dae07d6f42c4, type: 2}
+    - {fileID: 11400000, guid: 2f93dc2e8cb5c1d4ead6634f1c985b8a, type: 2}

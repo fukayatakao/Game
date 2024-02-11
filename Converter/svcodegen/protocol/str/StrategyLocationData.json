@@ -1,0 +1,19 @@
+{
+	"Struct":
+	{
+		"ClassComment":"配置データ",
+		"ClassName":"StrategyLocationData",
+		"member":[
+			{
+				"type":"int",
+				"name":"nodeId",
+				"comment": "配置ノード"
+			},
+			{
+				"type":"PlatoonData",
+				"name":"platoon",
+				"comment": "配置部隊"
+			}
+		]
+	}
+}

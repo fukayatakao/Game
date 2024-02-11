@@ -1,0 +1,84 @@
+{
+	"Action":{
+		"ClassComment": "ログイン処理",
+		"ClassName": "Login",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"string",
+					"name":"account",
+					"comment": "ログインID"
+				},
+				{
+					"type":"string",
+					"name":"secure_id",
+					"comment": "セキュアID"
+				},
+				{
+					"type":"string",
+					"name":"check_code",
+					"comment": "クライアントコード"
+				},
+				{
+					"type":"string",
+					"name":"uuid",
+					"comment": "UUID"
+				},
+				{
+					"type":"int",
+					"name":"platform",
+					"comment": "プラットフォーム PlatformDef"
+				},
+				{
+					"type":"int",
+					"name":"language",
+					"comment": "言語 LanguageDef"
+				},
+				{
+					"type":"long",
+					"name":"time_offset",
+					"comment": "端末のローカル時と標準時の差(ms)"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"string",
+					"name":"sid",
+					"comment": ""
+				},
+				{
+					"type":"int",
+					"name":"user_id",
+					"comment": "ユーザーID"
+				},
+				{
+					"type":"List<Project.Mst.MstVersion>",
+					"name":"basedata_version",
+					"comment": "ベースデータバージョンリスト"
+				},
+				{
+					"type":"int",
+					"name":"safety_net_interval",
+					"comment": "セフティネットフラグ"
+				},
+				{
+					"type":"List<int>",
+					"name":"tutorial",
+					"comment": "残りチュートリアル"
+				}
+			]
+		}
+	}
+}

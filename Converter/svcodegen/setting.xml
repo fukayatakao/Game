@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Setting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <template_dir>protocol\templates</template_dir>
+
+  <src_action_dir>protocol\act</src_action_dir>
+  <dst_client_action_dir>output\action\client</dst_client_action_dir>
+  <dst_server_action_dir>output\action\server</dst_server_action_dir>
+
+  <src_struct_dir>protocol\str</src_struct_dir>
+  <dst_client_struct_dir>output\struct\client</dst_client_struct_dir>
+  <dst_server_struct_dir>output\struct\server</dst_server_struct_dir>
+
+</Setting>

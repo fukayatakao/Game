@@ -1,0 +1,209 @@
+﻿[
+    {
+        "Id":  "0",
+        "DbgName":  "なし",
+        "Population":  "0",
+        "Article":  "0",
+        "Number":  "0",
+        "Amount":  "0",
+        "Category":  "0"
+    },
+    {
+        "Id":  "1001",
+        "DbgName":  "食料品(労働者Lv1)",
+        "Population":  "100",
+        "Article":  "2",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "1002",
+        "DbgName":  "飲食サービス(労働者Lv1)",
+        "Population":  "100",
+        "Article":  "7",
+        "Number":  "1",
+        "Amount":  "30",
+        "Category":  "1"
+    },
+    {
+        "Id":  "1011",
+        "DbgName":  "食料品(労働者Lv2)",
+        "Population":  "101",
+        "Article":  "2",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "1012",
+        "DbgName":  "嗜好品(労働者Lv2)",
+        "Population":  "101",
+        "Article":  "3",
+        "Number":  "1",
+        "Amount":  "30",
+        "Category":  "1"
+    },
+    {
+        "Id":  "1021",
+        "DbgName":  "食料品(労働者Lv3)",
+        "Population":  "102",
+        "Article":  "2",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "1022",
+        "DbgName":  "嗜好品(労働者Lv3)",
+        "Population":  "102",
+        "Article":  "3",
+        "Number":  "1",
+        "Amount":  "30",
+        "Category":  "1"
+    },
+    {
+        "Id":  "1031",
+        "DbgName":  "食料品(労働者Lv4)",
+        "Population":  "103",
+        "Article":  "2",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "1032",
+        "DbgName":  "嗜好品(労働者Lv4)",
+        "Population":  "103",
+        "Article":  "3",
+        "Number":  "1",
+        "Amount":  "30",
+        "Category":  "1"
+    },
+    {
+        "Id":  "1041",
+        "DbgName":  "食料品(労働者Lv5)",
+        "Population":  "104",
+        "Article":  "2",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "1042",
+        "DbgName":  "嗜好品(労働者Lv5)",
+        "Population":  "104",
+        "Article":  "3",
+        "Number":  "1",
+        "Amount":  "30",
+        "Category":  "1"
+    },
+    {
+        "Id":  "1043",
+        "DbgName":  "生活用品(労働者Lv5)",
+        "Population":  "104",
+        "Article":  "4",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "2001",
+        "DbgName":  "食料品(兵士)",
+        "Population":  "200",
+        "Article":  "2",
+        "Number":  "1",
+        "Amount":  "150",
+        "Category":  "0"
+    },
+    {
+        "Id":  "2002",
+        "DbgName":  "嗜好品(兵士)",
+        "Population":  "200",
+        "Article":  "3",
+        "Number":  "1",
+        "Amount":  "20",
+        "Category":  "1"
+    },
+    {
+        "Id":  "3001",
+        "DbgName":  "食料品(貴族)",
+        "Population":  "300",
+        "Article":  "2",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "3002",
+        "DbgName":  "嗜好品(貴族)",
+        "Population":  "300",
+        "Article":  "3",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "3003",
+        "DbgName":  "生活用品(貴族)",
+        "Population":  "300",
+        "Article":  "4",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "1"
+    },
+    {
+        "Id":  "4001",
+        "DbgName":  "食料品(聖職者)",
+        "Population":  "400",
+        "Article":  "2",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "4002",
+        "DbgName":  "嗜好品(聖職者)",
+        "Population":  "400",
+        "Article":  "3",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "4003",
+        "DbgName":  "生活用品(聖職者)",
+        "Population":  "400",
+        "Article":  "4",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "1"
+    },
+    {
+        "Id":  "5001",
+        "DbgName":  "食料品(資産家)",
+        "Population":  "500",
+        "Article":  "2",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "5002",
+        "DbgName":  "嗜好品(資産家)",
+        "Population":  "500",
+        "Article":  "3",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    },
+    {
+        "Id":  "5003",
+        "DbgName":  "生活用品(資産家)",
+        "Population":  "500",
+        "Article":  "4",
+        "Number":  "1",
+        "Amount":  "100",
+        "Category":  "0"
+    }
+]

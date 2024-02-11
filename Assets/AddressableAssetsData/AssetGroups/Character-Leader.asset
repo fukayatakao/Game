@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Character-Leader
+  m_EditorClassIdentifier: 
+  m_GroupName: Character-Leader
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 85bbcb5149fbe4845b2995f9977dd622
+  m_SerializeEntries:
+  - m_GUID: 20f54d7d7369297409a61249b8c908b9
+    m_Address: Character/Leader/leader_001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31573860edfcc7b41b7e9158eea0f41b
+    m_Address: Character/Leader/leader_004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88cc8784d7550fb45b63a76bb0c6548f
+    m_Address: Character/Leader/leader_005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad97ad94a95345643be5348ae9994db8
+    m_Address: Character/Leader/leader_006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 680eebbc088e6734daa01a4289865917
+    m_Address: Character/Leader/leader_007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9de722e8e91ba3b4998910858c31e551
+    m_Address: Character/Leader/leader_008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03d32d2d0a360034fa7999b1159e015c
+    m_Address: Character/Leader/leader_009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e83719b6db91d541bdb88ad9650b5e2
+    m_Address: Character/Leader/leader_010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da8b57982d30b0d47af82ec893314b7f
+    m_Address: Character/Leader/leader_011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75e6db7de2dd48b4d83ba1acb6177e0a
+    m_Address: Character/Leader/leader_012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cae21a9e79722a5429ced8eb9e330e44
+    m_Address: Character/Leader/leader_002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa636bfcf10adaf46b11dd96ef269907
+    m_Address: Character/Leader/leader_003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8176ea9ab49531e409d67e984a8af9b1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7a9ebdd565f8cda42a588bb0e2cc6544, type: 2}
+    - {fileID: 11400000, guid: 1d8db03708f21ae4daa70c9ce5b75e30, type: 2}

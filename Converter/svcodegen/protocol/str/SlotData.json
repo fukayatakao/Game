@@ -1,0 +1,24 @@
+{
+	"Struct":
+	{
+		"ClassComment":"Slot情報",
+		"ClassName":"SlotData",
+		"member":[
+			{
+				"type":"int",
+				"name":"goodsId",
+				"comment": "グッズId"
+			},
+			{
+				"type":"int",
+				"name":"amount",
+				"comment": "数量"
+			},
+			{
+				"type":"float",
+				"name":"grade",
+				"comment": "グレード"
+			}
+		]
+	}
+}

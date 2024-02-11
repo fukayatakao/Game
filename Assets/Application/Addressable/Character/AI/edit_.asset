@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4f562fb7ab93f44ae2c445c2e77491, type: 3}
+  m_Name: edit_
+  m_EditorClassIdentifier: 
+  EntityType: character
+  StartStateNo: Idle
+  StateDataList:
+  - StateNo: Assault
+    EnterDecision: []
+    ExecuteDecision: []
+    ExitDecision: []
+  - StateNo: AssaultBoss
+    EnterDecision: []
+    ExecuteDecision: []
+    ExitDecision: []
+  - StateNo: Attack
+    EnterDecision: []
+    ExecuteDecision: []
+    ExitDecision: []
+  - StateNo: Idle
+    EnterDecision: []
+    ExecuteDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Idle
+      RestrictionFlag: 1
+    ExitDecision: []
+  - StateNo: Move
+    EnterDecision: []
+    ExecuteDecision: []
+    ExitDecision: []
+  - StateNo: None
+    EnterDecision: []
+    ExecuteDecision:
+    - EvaluateFuncNo: Always
+      EvaluateArgs: []
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 1
+    ExitDecision: []
+  - StateNo: Swap
+    EnterDecision: []
+    ExecuteDecision:
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:False
+      OrderFuncNo: ChangeState
+      OrderArgs:
+      - Project.Game.CharacterState+State:Move
+      RestrictionFlag: 1
+    - EvaluateFuncNo: IsInTargetPos
+      EvaluateArgs:
+      - System.Boolean:True
+      OrderFuncNo: ChangeAIState
+      OrderArgs:
+      - Project.Game.CharacterThink+State:Idle
+      RestrictionFlag: 0
+    ExitDecision: []
+  - StateNo: Migration
+    EnterDecision: []
+    ExecuteDecision: []
+    ExitDecision: []
+  - StateNo: Chase
+    EnterDecision: []
+    ExecuteDecision: []
+    ExitDecision: []
+  - StateNo: LineSwapForward
+    EnterDecision: []
+    ExecuteDecision: []
+    ExitDecision: []
+  - StateNo: LineSwapBackward
+    EnterDecision: []
+    ExecuteDecision: []
+    ExitDecision: []

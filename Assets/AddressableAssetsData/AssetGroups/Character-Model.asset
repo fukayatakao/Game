@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Character-Model
+  m_EditorClassIdentifier: 
+  m_GroupName: Character-Model
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 18ec22e8ee6b7654c80b1c64114f830b
+  m_SerializeEntries:
+  - m_GUID: 9169d0df15016d146b70cc6ff193209f
+    m_Address: Character/Model/Yuko_win_humanoid
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6b3a24d9e8f1d04299c981211830073
+    m_Address: Character/Model/Yuko_sum_humanoid
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 654bfcc90488b964fab1c98716fa0783
+    m_Address: Character/Model/Utc_win_humanoid
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ba178e46994e4247881736b4e6807ab
+    m_Address: Character/Model/Utc_sum_humanoid
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab76506b4065c084db018c9b9af332fa
+    m_Address: Character/Model/unitychan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3301627ffe6db744cb8666126096620a
+    m_Address: Character/Model/SiegeEngine_Standard_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7f595a62c3a08e4c8c372be2f65cb4c
+    m_Address: Character/Model/SiegeEngine_MaskTint_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a47f2bc26902f04f8d39dbfbb7a8923
+    m_Address: Character/Model/Misaki_win_humanoid
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1f4b4843c31fdd4a99fb3dc6dfa7ca9
+    m_Address: Character/Model/Misaki_sum_humanoid
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: defb66c9cdd4bdf4dba6ab79605ab989
+    m_Address: Character/Model/Mage_Standard_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81c5e6ec759d5944fa04fbe5a47e9cf6
+    m_Address: Character/Model/Mage_MaskTint_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d6200ed3941bf44aaff0367937b8b69
+    m_Address: Character/Model/Knight_Standard_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b476082fefa136e4089063e02201e2e7
+    m_Address: Character/Model/Knight_MaskTint_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d7981dd09f99c641be5e6661608f4b5
+    m_Address: Character/Model/Horseman_Standard_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42f7e043ab9a92c4ab9bebdaded6da83
+    m_Address: Character/Model/Horseman_MaskTint_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86fdaec812ff98e4895b2549172170c2
+    m_Address: Character/Model/Griffin_Standard_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1563313fc4fa415428e1a5890753f1f1
+    m_Address: Character/Model/Griffin_MaskTint_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fd007e13838e5a46b80601ab8506b89
+    m_Address: Character/Model/Footman_Standard_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2511650b39f253243bf91cc7e9542a8e
+    m_Address: Character/Model/Footman_MaskTint_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75095cbff143ab346a0602ac46a0c078
+    m_Address: Character/Model/DragonTerrorBringer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6462b6453f566f43976f8a53a46ef4c
+    m_Address: Character/Model/DragonSoulEater
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f8f2c97bc6aead4fa4480d4681c2fcb
+    m_Address: Character/Model/Archer_Standard_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53bbe5927ac496042a05d779ba73a931
+    m_Address: Character/Model/Archer_MaskTint_PBR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0036d97329904b4881e1c88f5a2165e
+    m_Address: Character/Model/Dummy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8176ea9ab49531e409d67e984a8af9b1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2eb5b8168d6ba3a41adcd45d541e0bf0, type: 2}
+    - {fileID: 11400000, guid: 8945de14f800bf1498a7e0f8d89ab8e3, type: 2}

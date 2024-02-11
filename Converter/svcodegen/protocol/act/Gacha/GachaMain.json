@@ -1,0 +1,40 @@
+{
+	"Action":{
+		"ClassComment": "ガチャシーン開始",
+		"ClassName": "GachaMain",
+		"Config": {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true"
+		},
+		"Request":{
+			"member":[
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"List<LeaderData>",
+					"name":"leaders",
+					"comment": "リーダー全員"
+				},
+				{
+					"type":"List<CharacterData>",
+					"name":"characters",
+					"comment": "キャラクター全員"
+				},
+				{
+					"type":"int",
+					"name":"stageId",
+					"comment": "ステージモデル"
+				}
+
+			]
+		}
+	}
+}

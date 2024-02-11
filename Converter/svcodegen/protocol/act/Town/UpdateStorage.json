@@ -1,0 +1,27 @@
+{
+	"Action":{
+		"ClassComment": "倉庫の設定更新",
+		"ClassName": "UpdateStorage",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"StorageData",
+					"name":"storageData",
+					"comment": "更新された倉庫"
+				}
+			]
+		},
+		"Response":{
+		}
+	}
+}

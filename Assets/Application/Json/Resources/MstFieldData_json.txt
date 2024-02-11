@@ -1,0 +1,34 @@
+﻿[
+    {
+        "Id":  "1",
+        "StageName":  "Field/Board",
+        "SkyName":  "Field/Sky/satara_night_8k",
+        "Width":  "20",
+        "Depth":  "50",
+        "BackDepth":  "15"
+    },
+    {
+        "Id":  "2",
+        "StageName":  "Field/Board",
+        "SkyName":  "Field/Sky/satara_night_8k",
+        "Width":  "10",
+        "Depth":  "50",
+        "BackDepth":  "6"
+    },
+    {
+        "Id":  "3",
+        "StageName":  "Field/Board",
+        "SkyName":  "Field/Sky/satara_night_8k",
+        "Width":  "3",
+        "Depth":  "60",
+        "BackDepth":  "7.5"
+    },
+    {
+        "Id":  "99",
+        "StageName":  "Field/OrganizeBoard",
+        "SkyName":  "Field/Sky/rustig_koppie_4k",
+        "Width":  "20",
+        "Depth":  "0",
+        "BackDepth":  "20"
+    }
+]

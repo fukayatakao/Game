@@ -1,0 +1,50 @@
+{
+	"Action":{
+		"ClassComment": "バトルシーン開始",
+		"ClassName": "BattleMain",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"int",
+					"name":"invaderId",
+					"comment": "攻撃側部隊ID"
+				},
+				{
+					"type":"int",
+					"name":"defenderId",
+					"comment": "防衛側部隊ID"
+				},
+				{
+					"type":"int",
+					"name":"nodeId",
+					"comment": "ノードID"
+				},
+				{
+					"type":"int",
+					"name":"stageId",
+					"comment": "ステージID"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+				{
+					"type":"BattleSituationData",
+					"name":"situation",
+					"comment": "バトル情報"
+				}
+
+			]
+		}
+	}
+}

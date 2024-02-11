@@ -1,0 +1,29 @@
+{
+	"Struct":
+	{
+		"ClassComment":"分隊情報",
+		"ClassName":"SquadData",
+		"member":[
+			{
+				"type":"int",
+				"name":"unitId",
+				"comment": "ユニットMasterId"
+			},
+			{
+				"type":"int",
+				"name":"enemyMemberParamId",
+				"comment": "敵ユニット用上書きパラメータId"
+			},
+			{
+				"type":"List<CharacterData>",
+				"name":"members",
+				"comment": "メンバーデータ"
+			},
+			{
+				"type":"LeaderData",
+				"name":"leader",
+				"comment": "リーダーデータ"
+			}
+		]
+	}
+}

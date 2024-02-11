@@ -1,0 +1,27 @@
+{
+	"Action":{
+		"ClassComment": "アイテムを購入する",
+		"ClassName": "PurchaseItem",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"ItemData",
+					"name":"item",
+					"comment": "アイテム"
+				}
+			]
+		},
+		"Response":{
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"Action":{
+		"ClassComment": "盤面更新",
+		"ClassName": "UpdateBoard",
+		"Config" : {
+			"server": "sim",
+			"api": "",
+			"useragent": "sim",
+			"session": "false",
+			"timeout": "10",
+			"encrypt": "true",
+			"post": "false",
+			"offline": "true" 
+		},
+		"Request":{
+			"member":[
+				{
+					"type":"List<StrategyLocationData>",
+					"name":"invaderLocation",
+					"comment": "攻撃側配置"
+				},
+				{
+					"type":"List<StrategyLocationData>",
+					"name":"defenderLocation",
+					"comment": "守備配置"
+				},
+				{
+					"type":"int",
+					"name":"turn",
+					"comment": "戦略マップのターン"
+				},
+				{
+					"type":"List<int>",
+					"name":"available",
+					"comment": "現ターンの残り行動可能部隊"
+				}
+			]
+		},
+		"Response":{
+			"member":[
+			]
+		}
+	}
+}
